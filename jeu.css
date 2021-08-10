@@ -1,0 +1,32 @@
+body {
+background-image: url(jeu-mystere.jpg);
+background-size: cover;
+}
+
+.container{
+    color: white;
+    text-align: center;
+}
+
+#titre
+{font-size: 50px;}
+
+p{
+    font-size: 50px;
+}
+
+#mot{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.prompt {
+    width: 50px;height: 50px;
+    text-align: center;
+    border: 1px dotted  ;
+    box-sizing: border-box;
+    background-color:transparent;}
+
+   
+    
