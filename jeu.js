@@ -1,16 +1,23 @@
 
  // tableau des mots à deviner
-let mot = ["ajout","basta","douce","final","jadis","ligne","peuls"];
-// nombre de tentatives
-let numberoftests = 8; 
+let word = ["ajout","bienvenu","curcuma","empathie","jadis","ligne","peuls"];
 
 //choisir un mot 
-var random = Math.floor(Math.random()*mot.length);
-console.log(mot[random])
+var random = Math.floor(Math.random()*word.length);
+console.log(word[random])
 
-// saisie de la lettre 
+// nombre de tentatives
+let trials = 8; 
 
-let letter = "";
+// saisie de l'utilisateur
+let usertrial = 0
 
+// pour chaque saisie de l'utilisateur, 1 tentative en moins
+
+
+
+
+// stockage des mots tirés au sort 
+let usedWords = [""]
 
  
