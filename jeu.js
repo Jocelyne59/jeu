@@ -1,23 +1,54 @@
-
- // tableau des mots à deviner
-let word = ["ajout","bienvenu","curcuma","empathie","jadis","ligne","peuls"];
-
-//choisir un mot 
-var random = Math.floor(Math.random()*word.length);
-console.log(word[random])
-
-// nombre de tentatives
-let trials = 8; 
-
-// saisie de l'utilisateur
-let usertrial = 0
-
-// pour chaque saisie de l'utilisateur, 1 tentative en moins
+// tableau de mot 
+const words= ["coupure","bonheur","empathie","littérature","peuls","jardin","confiance"];
+// tirage du mot aleatoire + stockage
+let randomIndex=Math.floor(Math.random()*words.length);
+let randomWord=words[randomIndex];
+console.log(randomWord);
 
 
+// mise à jour paragraphe à chaque tirage
+
+let paragraphe=document.getElementById("letterPlace");
+paragraphe.innerHTML=randomWord
+
+// initialiser le jeu
+
+initGame()
+
+//fonction d'initialisation du jeu
+
+function initGame() {
 
 
-// stockage des mots tirés au sort 
-let usedWords = [""]
+    let wordToDisplay="";
+
+    for(let i=0 ; i<randomWord.length; i++){
+
+        wordToDisplay = wordToDisplay + "-";
+
+}
+
+// saisie de l'UI , chaque essai de l'UI = tentative -1
+function userAttempt(){
+    let trials=8;
+    for (userTry=0 ;userTry ++; trials=-1;) {
+        document.getElementById("tentative");
+        span.innerHTML=trials;
+    }
+}
+
+}
+
+// check la saisie de l'UI
+function checkGuess() {
+	//récupérer la saisie
+	
+
+}
+
+// en cas de victoire (function IsVictory)
+
+
+
 
  
