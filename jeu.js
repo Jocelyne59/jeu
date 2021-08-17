@@ -27,6 +27,7 @@ function initGame() {
         wordToDisplay = wordToDisplay + "-";
 
 }
+}
 
 /* saisie de l'UI , chaque essai de l'UI = tentative -1
 function userAttempt(){
@@ -51,4 +52,3 @@ function checkGuess() {
 */
 
 
- 
