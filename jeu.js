@@ -22,13 +22,13 @@ function initGame() {
 
     let wordToDisplay="";
 
-    for(let i=0 ; i<randomWord.length; i++){
+    for(let i=0 ; i<randomWords.length; i++){
 
         wordToDisplay = wordToDisplay + "-";
 
 }
 
-// saisie de l'UI , chaque essai de l'UI = tentative -1
+/* saisie de l'UI , chaque essai de l'UI = tentative -1
 function userAttempt(){
     let trials=8;
     for (userTry=0 ;userTry ++; trials=-1;) {
@@ -48,7 +48,7 @@ function checkGuess() {
 
 // en cas de victoire (function IsVictory)
 
-
+*/
 
 
  
